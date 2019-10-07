@@ -26,9 +26,12 @@ html {
 body {
   margin: 0; 
 	font-size: 1.5em;
-	line-height: 1.6;
-	font-weight: 400;
-	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  line-height: 1.6;
+  font-family: myriad-pro, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+	// font-weight: 400;
+	// font-family: 'Open Sans', Helvetica, Arial, sans-serif;
   color: rgba(208, 211, 205, 1);
   text-shadow: 0 1px 0 rgba(0, 0, 0, 1);
   background-color: #282d47;
@@ -274,7 +277,8 @@ body {
 }
 
 p {
-	margin-top: 0;
+  margin-top: 0;
+  letter-spacing: 1px;
 }
 
 a {
