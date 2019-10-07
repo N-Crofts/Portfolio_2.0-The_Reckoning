@@ -1,17 +1,16 @@
-@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,300");
 @font-face {
   font-family: Gruppo;
-  src: url(../assets/fonts/Gruppo-Regular.ttf);
+  src: url(../assets/fonts/misc/Gruppo-Regular.ttf);
 }
 
 @font-face {
   font-family: Audiowide;
-  src: url(../assets/fonts/Audiowide-Regular.ttf);
+  src: url(../assets/fonts/misc/Audiowide-Regular.ttf);
 }
 
 @font-face {
   font-family: Megrim;
-  src: url(../assets/fonts/Megrim-Regular.ttf);
+  src: url(../assets/fonts/misc/Megrim-Regular.ttf);
 }
 
 @font-face {
