@@ -471,17 +471,22 @@ header {
 	margin-right: auto;
 }
 
-footer {
+.footerCopyright {
 	min-height: 120px;
   padding: 40px 0 40px 0;
   background: #282d47;
   box-sizing: border-box;
-}
 
-#copyright {
-  font-size: 12px;
-  letter-spacing: 3px;
-	margin: 20px 0 0 0;
+  a {
+    color: #ffffff;
+    text-decoration: none;
+
+    #copyright {
+      font-size: 12px;
+      letter-spacing: 3px;
+      margin: 20px 0 0 0;
+    }
+  }
 }
 
 .commonContainer:after, .commonRow:after {
