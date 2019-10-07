@@ -554,6 +554,11 @@ header {
   padding: 5rem 3rem;
   box-shadow: 4px 4px 12px 1px rgba(0, 0, 0, 0.35);
   transition: 0.4s ease;
+
+  .cardTitle {
+    display: flex;
+    justify-content: space-between;
+  }
 }
 
 .singleCard:not(:first-child) {

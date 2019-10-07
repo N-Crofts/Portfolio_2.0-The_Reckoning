@@ -542,6 +542,15 @@ header {
   transition: 0.4s ease;
 }
 
+.singleCard .cardTitle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
 .singleCard:not(:first-child) {
   margin-left: -11rem;
 }
