@@ -202,6 +202,14 @@ body {
 	box-sizing: border-box;
 }
 
+.aboutColumn {
+  margin-top: 15px;
+}
+
+.progressColumn {
+  margin-top: 50px;
+}
+
 @media (min-width: 400px) {
   .commonContainer {
     width: 85%;
@@ -386,7 +394,7 @@ header {
 }
 
 #skillMain {
-  padding: 100px 0 100px 0;
+  padding: 50px 0 50px 0;
   background-color: #282d47;
 }
 
@@ -463,7 +471,7 @@ header {
 }
 
 #projectsMain {
-  padding: 100px 0 100px 0;
+  padding: 50px 0 50px 0;
   background-color: #282d47;
 }
 
