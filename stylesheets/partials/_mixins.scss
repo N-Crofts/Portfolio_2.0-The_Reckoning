@@ -1,0 +1,25 @@
+@mixin flexCenter {
+  display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+}
+
+@mixin header {
+  font-family: 'Audiowide';
+  font-size: 3.7rem;
+  line-height: 1;
+  margin-top: 0;
+  margin-bottom: 2rem;
+  visibility: hidden;
+}
+
+@mixin column {
+  width: 100%;
+  float: left;
+  box-sizing: border-box;
+}

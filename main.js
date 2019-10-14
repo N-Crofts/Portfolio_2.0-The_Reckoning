@@ -1,14 +1,19 @@
+////////// ---  FUNCTION TO STICK THE NAVBAR WHEN SCROLLED TO A CERTAIN POINT
+
+
 window.onscroll = function() { navbarScroll() };
 const navbar = document.getElementById("navMain");
 
 function navbarScroll() {
-  if (document.documentElement.scrollTop > 750) {
-    navbar.classList.add("sticky")
+  if (document.documentElement.scrollTop > 750 || window.innerWidth < 701) {
+    navbar.classList.add("stickyNav")
   } else {
-    navbar.classList.remove("sticky");
+    navbar.classList.remove("stickyNav");
   }
 }
 
+
+////////// ---  FUNCTIONS TO TRIGGER THE 'ABOUT SLIDE' ANIMATION WHEN SCROLLED INTO VIEW
 
 
 document.addEventListener('scroll', aboutAnimate);
@@ -34,6 +39,8 @@ function aboutAnimate() {
 }
 
 
+////////// ---  FUNCTIONS TO TRIGGER THE 'SKILL SLIDE' ANIMATION WHEN SCROLLED INTO VIEW
+
 
 document.addEventListener('scroll', skillAnimate);
 var skillElement = document.getElementById('skillHeader');
@@ -57,6 +64,8 @@ function skillAnimate() {
   }
 }
 
+
+////////// ---  FUNCTIONS TO TRIGGER THE 'PROJECTS SLIDE' ANIMATION WHEN SCROLLED INTO VIEW
 
 
 document.addEventListener('scroll', projectsAnimate);
