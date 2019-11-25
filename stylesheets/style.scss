@@ -225,11 +225,17 @@ header {
     padding-top: 75px;
   }
 
+  #aboutRow p {
+    padding-bottom: 2rem;
+    width: 90%;
+    text-align: justify;
+  }
+
   .aboutColumn {
     @include column;
     margin-top: 15px;
   
-    @media (min-width: 600px){
+    @media (min-width: 650px){
       margin-left: 4%;
       width: 48%;
   
@@ -237,6 +243,39 @@ header {
         margin-left: 0;
       }
     }
+
+    p {
+      text-align: justify;
+    }
+  }
+}
+
+@media (max-width: 1010px) and (min-width: 650px) {
+  #designColumn {
+    float: none !important;
+  }
+
+  #expertiseColumn {
+    float: right !important;
+    margin-top: -19rem !important;
+  }
+
+  #frontEndColumn {
+    padding-bottom: 2rem;
+  }
+}
+
+#expertiseColumn {
+  @media (max-width: 1007px) and (min-width: 650px) {
+    margin-top: -21.5rem !important;
+  }
+
+  @media (max-width: 820px) and (min-width: 650px) {
+    margin-top: -24rem !important;
+  }
+
+  @media (max-width: 734px) and (min-width: 650px) {
+    margin-top: -26.4rem !important;
   }
 }
 
@@ -254,13 +293,17 @@ header {
   .skillColumn {
     @include column;
     
-    @media (min-width: 600px) {
+    @media (min-width: 750px) {
       margin-left: 4%;
       width: 30.6666666667%;
   
       &:first-child {
         margin-left: 0;
       }
+    }
+
+    p {
+      text-align: justify;
     }
   }
 
@@ -312,7 +355,7 @@ header {
           width: 50%;
         }
         
-        .mongoValue, .sqlValue, .pythonValue {
+        .mongoValue, .sqlValue {
           width: 60%;
         }
         
@@ -323,9 +366,17 @@ header {
         .reactValue {
           width: 80%;
         }
+
+        .pythonValue {
+          width: 55%;
+        }
         
         .webCoreValue {
           width: 90%;
+        }
+
+        .expressValue, .nodeValue {
+          width: 65%;
         }
       }
     }
