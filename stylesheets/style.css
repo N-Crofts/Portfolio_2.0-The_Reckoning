@@ -313,8 +313,14 @@ header {
 
 #aboutMain #aboutRow p {
   padding-bottom: 2rem;
-  width: 90%;
+  width: 85%;
   text-align: justify;
+}
+
+@media (max-width: 750px) {
+  #aboutMain #aboutRow p {
+    width: initial;
+  }
 }
 
 #aboutMain .aboutColumn {
@@ -335,11 +341,7 @@ header {
   }
 }
 
-#aboutMain .aboutColumn p {
-  text-align: justify;
-}
-
-@media (max-width: 1010px) and (min-width: 650px) {
+@media (max-width: 1055px) and (min-width: 650px) {
   #designColumn {
     float: none !important;
   }
@@ -352,7 +354,7 @@ header {
   }
 }
 
-@media (max-width: 1007px) and (min-width: 650px) {
+@media (max-width: 1001px) and (min-width: 650px) {
   #expertiseColumn {
     margin-top: -21.5rem !important;
   }
@@ -364,7 +366,7 @@ header {
   }
 }
 
-@media (max-width: 734px) and (min-width: 650px) {
+@media (max-width: 674px) and (min-width: 650px) {
   #expertiseColumn {
     margin-top: -26.4rem !important;
   }
@@ -398,10 +400,6 @@ header {
   #skillMain .skillColumn:first-child {
     margin-left: 0;
   }
-}
-
-#skillMain .skillColumn p {
-  text-align: justify;
 }
 
 #skillMain .progressColumn {
