@@ -56,9 +56,16 @@
 }
 
 
+// @media (max-width: 700px) {
+//   #aboutHeader {
+//     animation-play-state: paused;
+//     visibility: visible;
+//   }
+// }
+
 .slideLeft {
 	-webkit-animation: slideLeft 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-	        animation: slideLeft 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+          animation: slideLeft 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
 
 @-webkit-keyframes slideLeft {
