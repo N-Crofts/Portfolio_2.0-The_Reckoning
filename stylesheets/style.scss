@@ -257,7 +257,7 @@ header {
 
   #expertiseColumn {
     float: right !important;
-    margin-top: -19rem !important;
+    margin-top: -21.6rem !important;
   }
 
   #frontEndColumn {
@@ -270,8 +270,12 @@ header {
     margin-top: -21.5rem !important;
   }
 
-  @media (max-width: 820px) and (min-width: 650px) {
+  @media (max-width: 843px) and (min-width: 650px) {
     margin-top: -24rem !important;
+  }
+
+  @media (max-width: 734px) and (min-width: 650px) {
+    margin-top: -26.3rem !important;
   }
 
   @media (max-width: 674px) and (min-width: 650px) {
